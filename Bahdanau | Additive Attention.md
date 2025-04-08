@@ -2,7 +2,7 @@
 
 * ``TOTAL ALPHA'S: WORDS IN INPUT SENTENCE * WORDS IN OUTPUT SENTENCE``
 
-* ``**RATHER THAN PROVIDING ONLY CONTEXT VECTOR TO DECODER, THE DECODER HAS ACCESS TO ALL THE ALIGNMENT SCORES (EXAMPLE: c_1, c_2, c_3, c_4) TO FIND WHICH WORD AT ENCODER LEVEL IS MORE IMPORTANT DURING DECODING**``
+* ``RATHER THAN PROVIDING ONLY CONTEXT VECTOR TO DECODER, THE DECODER HAS ACCESS TO ALL THE ALIGNMENT SCORES (EXAMPLE: c_1, c_2, c_3, c_4) TO FIND WHICH WORD AT ENCODER LEVEL IS MORE IMPORTANT DURING DECODING``
 
 ![image](https://github.com/user-attachments/assets/5472ade3-fdba-4046-9a55-80519430e958)
 
@@ -17,7 +17,7 @@
 
 ![image](https://github.com/user-attachments/assets/e4a70c95-43ac-475c-9299-bf27f490a28b)
 
-* **we will input that 4*8 matrix into ANN ``(ALIGNMENT MODEL)``, which will give us 4*1 matrix, ``(These will be the alignment scores [alpha_])``. Now we will use them to calculate ```c_1, c_2, c_3, c_4`` values**
+* **we will input that 4x8 matrix into ANN ``(ALIGNMENT MODEL)``, which will give us 4*1 matrix, ``(These will be the alignment scores [alpha_])``. Now we will use them to calculate ```c_1, c_2, c_3, c_4`` values**
 
 ![image](https://github.com/user-attachments/assets/3e1a520b-4b48-4a4b-b6c2-85796b9b26ed)
 

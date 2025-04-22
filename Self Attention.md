@@ -30,7 +30,40 @@ Let's say we have these 2 sentences:
 
 
 
+---------------------------
+
+The above operation can be executed in parallel:
+
+* ``NOTE: THERE IS NO LEARNING IN THIS PROCESS BECAUSE THERE ARE NO WEIGHTS/BIASES INVOLVED IN IT --- DUE TO THIS REASON, THIS APPROACH IS GENERATING ONLY [GENERAL EMBEDDINGS], THEY ARE NOT TASK SPECIFIC EMBEDDINGS``
+
+* ``TO MAKE THE EMBEDDINGS -- TASK SPECIFIC, WE NEED TO INTRODUCE LEARNABLE PARAMETERS``
+![image](https://github.com/user-attachments/assets/f30f8658-0d33-49a0-abb8-837262e9ed2a)
 
 
+-------------------------
 
+In the above approach, the GREEN, PINK & BLUE BOXES are acting as QUERY, KEY & VALUE
+
+* ``GREEN ASKS PINK, TELL ME HOW MUCH SIMILARITY IS BETWEEN YOU AND ME``
+
+* ``This is how we will replace the boxes with the appropriate vectors (QUERY, KEY & VALUE)``
+![image](https://github.com/user-attachments/assets/0754e12b-fcf4-40c5-ae24-fdfb53d1e781)
+
+----------------------
+
+TO GET THOSE 3 NEW VECTORS (QUERY, KEY & VALUE) WE NEED TO USE SOME TECHNIQUE TO MAKE 3 NEW VECTORS FROM 1 OLD VECTOR. THIS TECHNIQUE COULD BE [linear transformation], WHERE WE MULTIPLY A VECTOR WITH A MATRIX.
+
+* ``But what should be the values inside those matrices? --- we will initialize them with random values and backpropagation will give us the best values``
+
+![image](https://github.com/user-attachments/assets/92e68792-176c-4281-95b3-aaa338c4b9ac)
+
+----------------------
+
+BELOW IS THE FINAL WORKFLOW TO GET THE CONTEXTUAL EMBEDDINGS:
+
+``WHILE READING, REFER THE 3RD LAST IMAGE``
+
+* ``We take our General Word Embeddings (yellow box), DOT PRODUCT it with the matrices to get 3 new vectors (QUERY, KEY & VALUE), we then applied SOFTMAX on the GREEN & PINK vectors and then performed WEIGHTED SUM TO GET CONTEXTUAL EMBEDDINGS``
+
+![image](https://github.com/user-attachments/assets/03b4f342-d77e-4f05-a1f0-e1da9f0f4b98)
 

@@ -75,3 +75,11 @@ BELOW IS THE FINAL WORKFLOW TO GET THE CONTEXTUAL EMBEDDINGS:
 
 ![image](https://github.com/user-attachments/assets/e7fa6225-0420-428c-9ed5-dc50c14ab624)
 
+
+-----------------
+
+``FINAL WORKFLOW:``
+
+![image](https://github.com/user-attachments/assets/02a03155-590f-4cae-ab22-6ebcd73d790d)
+
+

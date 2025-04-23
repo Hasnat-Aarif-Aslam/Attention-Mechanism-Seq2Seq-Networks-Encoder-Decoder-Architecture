@@ -69,7 +69,9 @@ BELOW IS THE FINAL WORKFLOW TO GET THE CONTEXTUAL EMBEDDINGS:
 
 ----------------------
 
+* ``Without scaling: Softmax sees huge numbers → it turns almost everything to zero except the largest one → the model can’t learn nuanced patterns.``
 
+* ``With division by d_k Softmax sees moderate numbers → it distributes attention more smoothly → gradients flow and learning stays stable, even when your vectors are very large.``
 
 ![image](https://github.com/user-attachments/assets/e7fa6225-0420-428c-9ed5-dc50c14ab624)
 

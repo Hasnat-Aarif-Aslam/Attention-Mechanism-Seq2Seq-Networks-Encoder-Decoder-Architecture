@@ -1,4 +1,5 @@
-# **BEFORE UNDERSTANDING LAYER NORMALIZATION, LETS HAVE A LOOK AT BATCH NORMALIZATION FIRST:**
+# **BEFORE UNDERSTANDING LAYER NORMALIZATION, LET'S HAVE A LOOK AT BATCH NORMALIZATION FIRST:**
+* in case of batch normalization, we normalize across the batch (column wise), like shown below.
 
 ![image](https://github.com/user-attachments/assets/1bc3c29e-1b46-4510-8801-d757267fa744)
 
@@ -16,4 +17,8 @@
 ---------------------------
 
 # **LAYER NORMALIZATION:**
+* in case of layer normalization, we normalize across the feature (row wise), like shown below.
+
+* ``THE BIGGEST BENEFIT IS THAT DURING NORMALIZATION OF THE PADDED ROWS, THE ZERO'S NO LONGER EFFECT THE OTHER VALUES BECAUSE WE ARE NOW CALCULATING THE THINGS (mean, std.) ROW WISE``
+![image](https://github.com/user-attachments/assets/2e46d7a8-efe7-4a94-8720-33ddeb4d8946)
 

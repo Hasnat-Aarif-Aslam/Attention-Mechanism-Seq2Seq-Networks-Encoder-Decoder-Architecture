@@ -32,7 +32,7 @@
 
 * ``The problem here is that when we have only the first word, we are trying to calculate the 0.1% and 0.1% too (CALCULATING THE VALUES FOR THE FUTURE WORDS), this future words calculation causes the DATA LEAKAGE.``
 
-* ``So we need to do something to make the values for these words zero -- when calcualting the CONTEXTUAL EMBEDDING of FIRST WORD -- we should calculate the value for first word only, when calculating the value for second word, we should only use the second word and so on`` **TO DO THIS, CHECK THE 4th IMAGE**
+* ``So we need to do something to make the values for these words zero -- when calcualting the CONTEXTUAL EMBEDDING of FIRST WORD -- we should calculate the value for first word only, when calculating the value for second word, we should only use the first and second word and vice versa`` **TO DO THIS, CHECK THE 4th IMAGE**
 
 # BELOW IS THE SAME PREVIOUS SELF ATTENTION PROCESS:
 

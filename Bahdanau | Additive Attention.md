@@ -1,3 +1,5 @@
+**What it does: Uses a small neural network (an “additive” MLP) to compare the decoder’s current state with each encoder output, producing a score for each source token.**
+
 * **As discussed before, we want to calculate the alpha's_ ``AKA, ALIGNMENT SCORES``.**
 
 * ``TOTAL ALPHA'S: WORDS IN INPUT SENTENCE * WORDS IN OUTPUT SENTENCE``

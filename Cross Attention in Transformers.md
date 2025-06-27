@@ -40,6 +40,28 @@ Example: In a translation model, when generating the French word for “dog,” 
 ![image](https://github.com/user-attachments/assets/002b67c0-d63f-4e14-b438-b34c105ae2ee)
 ![image](https://github.com/user-attachments/assets/044ec463-9a09-4da2-bdc0-6e1d09685ede)
 
+![image](https://github.com/user-attachments/assets/7dcf3846-311f-4565-a6d0-e61850bd28d9)
+* So the two arrows from the same line are the (KEY & VALUE) vectors, while that single arrow is (QUERY) vector
+
+**Self-Attention Vs. Cross Attention (Output):**
+
+![image](https://github.com/user-attachments/assets/0dfacf65-0581-4d35-b12c-d375f994f076)
+
+**Example to understand Self-Attention:**
+
+![image](https://github.com/user-attachments/assets/98018607-ce42-4128-83c4-a32d2b9ab8f8)
+
+**Example to understand Cross Attention:**
+
+![image](https://github.com/user-attachments/assets/1df46ac3-459e-4f0d-a7fc-972ebb278ac4)
+
+
+
+# **Use Cases:**
+* Cross-attention is specifically used where we have two different types of sequences.
+* Used in Machine Translation tasks, Q&A Systems
+* Multi Modal Data (image-text), (text-image), (text-speech) etc.
+
 
 
 

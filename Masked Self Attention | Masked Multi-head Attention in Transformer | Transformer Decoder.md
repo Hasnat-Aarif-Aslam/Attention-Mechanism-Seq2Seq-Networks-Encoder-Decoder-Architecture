@@ -46,5 +46,6 @@
 
 ![image](https://github.com/user-attachments/assets/33d3107e-491a-4ea2-b0f1-b3bfcb65e59e)
 
+# ``MASKING IS DONE BOTH DURING TRAINING AND INFERENCING``
 
 
